@@ -1,0 +1,26 @@
+// Variable overrides first
+$primary: #214d7c;
+$enable-shadows: true;
+$prefix: "mo-";
+$btn-border-radius:50px  ;
+
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    background-color: #F6F6F6;
+    box-sizing: border-box;
+
+}
+
+.main {
+
+    padding: 20px;
+    margin: 20px;
+    
+}
+.authority-tab {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+}
