@@ -24,3 +24,22 @@ body {
     margin-bottom: 30px;
     display: flex;
 }
+.nav-tabs .nav-link.active {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #214d7c;
+    color: #214d7c;
+}
+.nav-tabs .nav-link {
+    color: #686666;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    &:hover {
+        color: #214d7c;
+    }
+    &.active {
+        color: #214d7c;
+    }
+}
